@@ -1,5 +1,5 @@
 {% set name = "truststore" %}
-{% set version = "0.8.0" %}
+{% set version = "0.9.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/truststore-{{ version }}.tar.gz
-  sha256: dc70da89634944a579bfeec70a7a4523c53ffdb3cf52d1bb4a431fda278ddb96
+  sha256: a1dee0d0575ff22d2875476343783a5d64575419974e228f3248772613c3d993
 
 build:
   noarch: python
