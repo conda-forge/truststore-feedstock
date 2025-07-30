@@ -1,6 +1,6 @@
 context:
   name: truststore
-  version: "0.10.1"
+  version: "0.10.3"
   python_min: "3.10"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/truststore-${{ version }}.tar.gz
-  sha256: eda021616b59021812e800fa0a071e51b266721bef3ce092db8a699e21c63539
+  sha256: 16ff5f6faf692acca470f9b92e66b4c0faccb9b702d0b0486d3d465932b6b3b1
 
 build:
   noarch: python
@@ -26,7 +26,7 @@ requirements:
 
 tests:
   - python:
-      imports: 
+      imports:
         - truststore
       python_version: "${{ python_min }}.*"
 
