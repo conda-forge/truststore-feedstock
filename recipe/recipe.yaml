@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: truststore
-  version: "0.10.4"
+  version: "0.10.5"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/truststore-${{ version }}.tar.gz
-  sha256: 9d91bd436463ad5e4ee4aba766628dd6cd7010cf3e2461756b3303710eebc301
+  sha256: 30d36967ccaded5cbb38d602c433f53600036c79d502f4533a49b60a03bbefcd
 
 build:
   number: 0
